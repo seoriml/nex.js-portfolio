@@ -11,6 +11,7 @@ export default function DarkModeToggleButton() {
         type="button"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
+        {theme}
         {/* 라이트모드 */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
